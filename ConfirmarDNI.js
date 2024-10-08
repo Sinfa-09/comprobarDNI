@@ -1,3 +1,4 @@
+"use strict"
 let ndni=prompt("Introduzca su DNI");
 const letrasDNI = ['T', 'R', 'W', 'A', 'G', 'M', 'Y', 'F', 'P', 'D', 'X', 'B', 'N', 'J', 'Z', 'S', 'Q', 'V', 'H', 'L', 'C', 'K', 'E'];
 document.write("Vamos a comprobar la letra del DNI");
@@ -9,4 +10,3 @@ let resto = numero % 23;
     }else{
         alert("La letra es incorrecta");
     }
-
